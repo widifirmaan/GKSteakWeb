@@ -1,0 +1,204 @@
+/*deactivation survey popup*/
+.bg-deactivation-survey-popup-container {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	display:none;
+	z-index: 100;
+}
+
+.bg-deactivation-survey-popup-error-message {
+	color: #F00;
+	display: none;
+}
+
+.bg-deactivation-survey-popup-overlay {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background:rgba(0,0,0,0.5);
+	/*display:none;*/
+}
+
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-tbl {
+	display:table;
+	width:100%;
+	height:100%;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-tbl .bg-deactivation-survey-popup-cel{
+	display:table-cell;
+	vertical-align:middle;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-tbl .bg-deactivation-survey-popup-cel .bg-deactivation-survey-popup-inner-content {
+	padding:0 40px;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-tbl .bg-deactivation-survey-popup-cel .bg-deactivation-survey-popup-content {
+	background:#fff;
+	max-width:700px;
+	margin:0 auto;
+	padding:30px;
+	position: relative;
+	text-align:center;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-tbl .bg-deactivation-survey-popup-cel .bg-deactivation-survey-popup-content .bg-deactivation-survey-popup-control-buttons-container{
+	margin-top:30px;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-tbl .bg-deactivation-survey-popup-cel .bg-deactivation-survey-popup-content a.bg-deactivation-survey-popup-cancel {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	text-decoration: none;
+	/* font-size: 24px; */
+	/* color: #016cb0; */
+/*	border: 2px solid #016cb0;
+	border-radius: 50%;
+	width: 28px;*/
+	/* height: 24px; */
+	/* line-height: 18px; */
+	/* text-align: center; */
+	/* font-weight: 600; */
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-tbl .bg-deactivation-survey-popup-cel .bg-deactivation-survey-popup-content .bg-deactivation-survey-popup-cancel img {
+
+	border: 2px solid grey;
+	border-radius: 50%;
+	width: 16px;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-tbl .bg-deactivation-survey-popup-cel .bg-deactivation-survey-popup-content a.bg-deactivation-survey-popup-cancel:hover{
+	/*color:#fff;
+	background:#016cb0;*/
+	opacity:0.8;
+	transition:all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-tbl .bg-deactivation-survey-popup-cel .bg-deactivation-survey-popup-content .bg-deactivation-survey-popup-desc {
+	/* text-transform: uppercase; */
+	font-size: 16px;
+	max-width: 450px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	color: #808080;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-tbl .bg-deactivation-survey-popup-cel .bg-deactivation-survey-popup-content h3 {
+	font-size: 36px;
+	font-family:'Raleway';
+	font-weight:700;
+	color:#000;
+	margin-bottom: 25px;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-form-group{
+	overflow:auto;
+	margin-bottom: 15px;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-form-group .bg-deactivation-survey-popup-form-twocol{
+	width:50%;
+	float:left;
+	box-sizing:border-box;
+	padding:0 5px;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-form-group .bg-deactivation-survey-popup-form-onecol{
+	box-sizing: border-box;
+	padding: 0 5px;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-form-group input {
+	width: 100%;
+	border: 1px solid #ddd;
+	box-shadow: none !important;
+	padding: 10px;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-form-group select {
+	width: 100%;
+	border: 1px solid #ddd;
+	box-shadow: none !important;
+	height: 43px;
+	padding-left: 10px;
+}
+.bg-deactivation-survey-popup-container .bg-privacy-links-container {
+	border-top:1px solid #ddd;
+	padding-top:20px;
+	margin-top: 40px;
+}
+.bg-deactivation-survey-popup-container .bg-privacy-links-container a{
+	font-size:16px;
+	text-decoration:none;
+	margin: 0 15px;
+	color:#016cb0;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-control-buttons-container .bg-deactivation-survey-result-submit {
+	background: #016cb0 !important;
+	width:165px;
+	height:50px;
+	padding: 0;
+	border: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-right: 0px;
+	font-weight: 700;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-control-buttons-container .bg-deactivation-survey-result-submit .btn-text {
+	display: inline-block;
+	padding: 0 15px;
+	margin-right: 0;
+	vertical-align: middle;
+	float: left;
+	line-height: inherit;
+	height: 50px;
+	padding-top: 12px;
+	box-sizing: border-box;
+	width: 109px;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-control-buttons-container .bg-deactivation-survey-result-submit .btn-text-icon {
+	display: inline-block;
+	width: 56px;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	line-height: inherit;
+	border-radius: 0 3px 3px 0;
+	position: relative;
+	overflow: hidden;
+	background: #004270;
+	height: 50px;
+	padding-top: 14px;
+	box-sizing: border-box;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-control-buttons-container .bg-deactivation-survey-result-submit:hover .btn-text-icon img{
+	-webkit-animation-name: moving;
+  -webkit-animation-duration: 0.8s;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-control-buttons-container .bg-deactivation-survey-result-submit:hover .btn-text-icon {
+	background: #012842;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-control-buttons-container .bg-deactivation-survey-popup-cancel{
+	border:2px solid #016cb0;
+	font-size: 16px;
+	text-transform: uppercase;
+	height: inherit;
+	background:#fff;
+	/*width:165px;*/
+	height:50px;
+	margin-left: 15px;
+	font-weight: 700;
+}
+.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-control-buttons-container .bg-deactivation-survey-popup-cancel:hover{
+	border:2px solid #016cb0;
+	background:#fff;
+}
+
+.bg-deactivation-survey-popup-container textarea {
+	width: 100%;
+	min-height: 90px;
+	max-height: 200px;
+}
+
+@media only screen and (max-width: 740px) {
+	.bg-deactivation-survey-popup-container .bg-deactivation-survey-popup-tbl .bg-deactivation-survey-popup-cel .bg-deactivation-survey-popup-content h3 {
+		line-height: 1.1;
+	}
+}

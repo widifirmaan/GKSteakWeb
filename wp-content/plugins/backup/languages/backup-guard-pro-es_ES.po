@@ -1,0 +1,1154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-02-14 19:02+0400\n"
+"PO-Revision-Date: 2019-02-14 19:37+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _backupGuardT\n"
+"X-Poedit-SearchPath-0: backup-guard-pro.php\n"
+"X-Poedit-SearchPath-1: BackupGuard.php\n"
+"X-Poedit-SearchPath-2: index.php\n"
+"X-Poedit-SearchPath-3: com\n"
+"X-Poedit-SearchPath-4: public/ajax\n"
+"X-Poedit-SearchPath-5: public/backups.php\n"
+"X-Poedit-SearchPath-6: public/boot.php\n"
+"X-Poedit-SearchPath-7: public/cloud.php\n"
+"X-Poedit-SearchPath-8: public/config\n"
+"X-Poedit-SearchPath-9: public/cron\n"
+"X-Poedit-SearchPath-10: public/dashboardWidget.php\n"
+"X-Poedit-SearchPath-11: public/include\n"
+"X-Poedit-SearchPath-12: public/link_license.php\n"
+"X-Poedit-SearchPath-13: public/login.php\n"
+"X-Poedit-SearchPath-14: public/proFeatures.php\n"
+"X-Poedit-SearchPath-15: public/restore_wordpress.php\n"
+"X-Poedit-SearchPath-16: public/schedule-free.php\n"
+"X-Poedit-SearchPath-17: public/schedule-single.php\n"
+"X-Poedit-SearchPath-18: public/schedule.php\n"
+"X-Poedit-SearchPath-19: public/security.php\n"
+"X-Poedit-SearchPath-20: public/services.php\n"
+"X-Poedit-SearchPath-21: public/settings.php\n"
+"X-Poedit-SearchPath-22: public/support.php\n"
+"X-Poedit-SearchPath-23: public/templates\n"
+
+#: BackupGuard.php:96 public/backups.php:81 public/include/sidebar.php:36
+msgid "Backups"
+msgstr "Respaldos"
+
+#: BackupGuard.php:97 public/include/sidebar.php:41
+msgid "Cloud"
+msgstr "Nube"
+
+#: BackupGuard.php:98 public/include/sidebar.php:47
+msgid "Schedule"
+msgstr "Programar"
+
+#: BackupGuard.php:100 public/cloud.php:85 public/cloud.php:103
+#: public/include/sidebar.php:53
+msgid "Settings"
+msgstr "Ajustes"
+
+#: BackupGuard.php:101 public/include/sidebar.php:58
+msgid "Services"
+msgstr "Servicios"
+
+#: BackupGuard.php:102 public/include/sidebar.php:63
+msgid "Support"
+msgstr "Soporte"
+
+#: BackupGuard.php:106 public/include/sidebar.php:69
+msgid "Why upgrade?"
+msgstr "¿Por qué actualizar?"
+
+#: BackupGuard.php:163
+msgid "Are you sure you want to cancel import?"
+msgstr "¿Está seguro de que quiere cancelar la importación?"
+
+#: BackupGuard.php:164 BackupGuard.php:214
+msgid "Please choose at least one option."
+msgstr "Por favor, elija al menos una opción."
+
+#: BackupGuard.php:165 BackupGuard.php:215
+msgid "Please choose at least one directory."
+msgstr "Por favor, elija al menos un directorio."
+
+#: BackupGuard.php:166 BackupGuard.php:216
+msgid "Please choose at least one cloud."
+msgstr "Por favor, elija al menos una nube."
+
+#: BackupGuard.php:167
+msgid "Backing Up..."
+msgstr "Respaldando..."
+
+#: BackupGuard.php:168
+msgid "Something went wrong. Please try again."
+msgstr "Algo ha ido mal. Favor de intentar de nuevo."
+
+#: BackupGuard.php:169 public/backups.php:107
+msgid "No backups found."
+msgstr "No se encontraron respaldos."
+
+#: BackupGuard.php:170
+msgid "Please select one off the options."
+msgstr "Por favor seleccione una de las opciones."
+
+#: BackupGuard.php:171
+msgid "Please choose one of the files."
+msgstr "Por favor, elija uno de los archivos."
+
+#: BackupGuard.php:172 public/ajax/modalImport.php:97 public/backups.php:90
+msgid "Import"
+msgstr "Importar"
+
+#: BackupGuard.php:173
+msgid "Importing please wait..."
+msgstr "Importando, por favor espere ..."
+
+#: BackupGuard.php:174
+msgid "File upload failed."
+msgstr "La subida del archivo falló."
+
+#: BackupGuard.php:191
+msgid "Please select a file."
+msgstr "Por favor seleccione un archivo."
+
+#: BackupGuard.php:192
+msgid "File is too large."
+msgstr "El archivo es demasiado grande."
+
+#: BackupGuard.php:193
+msgid "Connecting..."
+msgstr "Conectando…"
+
+#: BackupGuard.php:194 public/ajax/saveCloudFolder.php:15
+msgid "Destination folder is required."
+msgstr "La carpeta de destino es obligatoria."
+
+#: BackupGuard.php:195 BackupGuard.php:239
+msgid "Successfully saved."
+msgstr "Guardado con éxito."
+
+#: BackupGuard.php:212
+msgid "Unable to delete schedule"
+msgstr "No se puede eliminar la tarea programada"
+
+#: BackupGuard.php:213 public/ajax/modalManualRestore.php:61
+msgid "Are you sure?"
+msgstr "¿Está seguro?"
+
+#: BackupGuard.php:217 BackupGuard.php:240
+msgid "Saving..."
+msgstr "Guardando..."
+
+#: BackupGuard.php:218
+msgid "You have successfully activated schedule."
+msgstr "Tarea programada con éxito."
+
+#: BackupGuard.php:219 BackupGuard.php:243
+#: public/ajax/modalAmazonSettings.php:49
+#: public/ajax/modalCreateSchedule.php:224 public/ajax/modalFtpSettings.php:90
+#: public/cloud.php:33 public/schedule-free.php:171
+#: public/schedule-single.php:236 public/settings.php:205
+msgid "Save"
+msgstr "Guardar"
+
+#: BackupGuard.php:236
+msgid "Please enter valid email."
+msgstr "Por favor introduzca un correo electrónico válido."
+
+#: BackupGuard.php:237
+msgid "Please enter valid file name."
+msgstr "Por favor, introduzca un nombre de archivo válido."
+
+#: BackupGuard.php:238
+msgid "Please enter a valid retention number."
+msgstr "Por favor, introduzca un número de retención válido."
+
+#: BackupGuard.php:241
+msgid "Are you sure you want to keep the latest"
+msgstr "¿Estás seguro de que quieres mantener los últimos"
+
+#: BackupGuard.php:242
+msgid "backups? All older backups will be deleted."
+msgstr "respaldos? Todas los respaldos antiguos serán eliminados."
+
+#: BackupGuard.php:262
+msgid "Please choose a license first"
+msgstr "Por favor, elija una licencia primero"
+
+#: BackupGuard.php:263
+msgid "There are no available licenses for using the selected product"
+msgstr "No hay licencias disponibles para usar el producto seleccionado."
+
+#: BackupGuard.php:309
+msgid "Are you sure you want to cancel?"
+msgstr "¿Estas seguro que quieres cancelar?"
+
+#: com/core/database/SGDB.php:725 com/core/database/SGDB.php:731
+msgid "Unable to retrieve the error message from MySQL"
+msgstr "No se puede recuperar el mensaje de error de MySQL"
+
+#: com/core/functions.gold.php:28 com/core/functions.platinum.php:18
+#: com/core/functions.platinum.php:33
+msgid "Region *"
+msgstr "Región *"
+
+#: com/core/functions.php:483
+msgid ""
+"Symlink / shortcut creation failed! Seems your server configurations don't "
+"allow symlink creation, so we're unable to provide you the direct download "
+"url. You can download your backup using any FTP client. All backups and "
+"related stuff we locate '/wp-content/uploads/backup-guard' directory. If you "
+"need this functionality, you should check out your server configurations and "
+"make sure you don't have any limitation related to symlink creation."
+msgstr ""
+
+#: com/core/functions.php:579 public/schedule-free.php:81
+#: public/schedule-single.php:146
+msgid "Backup database"
+msgstr ""
+
+#: com/core/functions.php:583
+msgid "Backup all tables found in the database"
+msgstr ""
+
+#: com/core/functions.php:585 com/core/functions.php:658
+msgid "Full"
+msgstr ""
+
+#: com/core/functions.php:587
+msgid ""
+"Backup tables related to the current WordPress installation. Only tables with"
+msgstr ""
+
+#: com/core/functions.php:587
+msgid "will be backed up"
+msgstr ""
+
+#: com/core/functions.php:589
+msgid "Only WordPress"
+msgstr ""
+
+#: com/core/functions.php:591
+msgid "Select tables you want to include in your backup"
+msgstr ""
+
+#: com/core/functions.php:593 com/core/functions.php:663
+#: com/core/functions.platinum.php:11
+msgid "Custom"
+msgstr "Personalizado"
+
+#: com/core/functions.php:603
+msgid "(excluded from settings)"
+msgstr ""
+
+#: com/core/functions.platinum.php:6
+msgid "Server *"
+msgstr "Servidor *"
+
+#: com/core/functions.platinum.php:48
+msgid "URL *"
+msgstr "URL *"
+
+#: com/core/functions.silver.php:107
+msgid "Wait... Don't forget to create a backup before updating!"
+msgstr ""
+
+#: com/core/functions.silver.php:108
+msgid "You have pending updates which should be installed on your WordPress."
+msgstr ""
+
+#: com/core/functions.silver.php:108
+msgid ""
+"strongly recommends to create a backup before installing any update package. "
+"So, you'll be safe in case something goes wrong!"
+msgstr ""
+
+#: com/core/functions.silver.php:115
+msgid ""
+"If you close this notification you won't receive any alerts from BackupGuard "
+"before installing updates."
+msgstr ""
+
+#: com/core/functions.silver.php:115
+msgid "Are you sure you want to disable such notifications?"
+msgstr ""
+
+#: com/core/functions.silver.php:130 com/core/functions.silver.php:163
+msgid ""
+"Wait... You see this alert because you've enabled 'alert to create a backup "
+"before updates' option in BackupGuard settings."
+msgstr ""
+
+#: com/core/functions.silver.php:130 com/core/functions.silver.php:163
+msgid "Are you sure you want to continue updating?"
+msgstr ""
+
+#: public/ajax/cloudAmazon.php:23
+msgid "Bucket field is required."
+msgstr "Bucket field is required."
+
+#: public/ajax/cloudAmazon.php:26
+msgid "Access key field is required."
+msgstr "El campo de Clave de acceso es obligatorio."
+
+#: public/ajax/cloudAmazon.php:29
+msgid "Secret access key field is required."
+msgstr "El campo de Clave de acceso secreto es obligatorio."
+
+#: public/ajax/cloudAmazon.php:39
+msgid "Bucket region field is required."
+msgstr "El campo de Región de bucket es obligatorio."
+
+#: public/ajax/cloudAmazon.php:60
+msgid "Could not connect to server. Please check given ditails"
+msgstr "No se pudo conectar al servidor. Favor de checar los datos."
+
+#: public/ajax/cloudFtp.php:28
+msgid "Connection method field is required."
+msgstr "El campo de Método de conexión es obligatorio."
+
+#: public/ajax/cloudFtp.php:31
+msgid "Host field is required."
+msgstr "El campo de Host es obligatorio."
+
+#: public/ajax/cloudFtp.php:34
+msgid "Port field is required."
+msgstr "El campo de Puerto es obligatorio."
+
+#: public/ajax/cloudFtp.php:37
+msgid "User field is required."
+msgstr "El campo de Usuario es obligatorio."
+
+#: public/ajax/cloudFtp.php:40
+msgid "Root directory field is required."
+msgstr "El campo de Directorio raíz es obligatorio."
+
+#: public/ajax/cloudFtp.php:43
+msgid "Private key field is required."
+msgstr "El campo de Llave privada es obligatoria."
+
+#: public/ajax/cloudFtp.php:46
+msgid "Password field is required."
+msgstr "El campo de Contraseña es obligatoria."
+
+#: public/ajax/downloadFromCloud.php:7
+msgid "Something went wrong. Please try again later."
+msgstr "Algo ha ido mal. Favor de intentar de nuevo."
+
+#: public/ajax/isFeatureAvailable.php:6
+msgid "This feature is not available in your package."
+msgstr "Esta característica no esta disponible en su paquete."
+
+#: public/ajax/manualBackup.php:15
+msgid "There is an active backup running. Please try later"
+msgstr "Hay un respaldo en ejecución. Por favor intente mas tarde."
+
+#: public/ajax/modalAmazonSettings.php:25
+msgid "Bucket *"
+msgstr "Bucket *"
+
+#: public/ajax/modalAmazonSettings.php:32
+msgid "Access Key *"
+msgstr "Clave de Acceso *"
+
+#: public/ajax/modalAmazonSettings.php:39
+msgid "Secret Access Key *"
+msgstr "Clave de Acceso Secreto *"
+
+#: public/ajax/modalAmazonSettings.php:48 public/ajax/modalFtpSettings.php:89
+#: public/ajax/modalImport.php:95
+msgid "Close"
+msgstr "Cerrar"
+
+#: public/ajax/modalCreateSchedule.php:73 public/schedule-free.php:30
+#: public/schedule-single.php:70
+msgid "Schedule settings"
+msgstr "Configuarción de horarios"
+
+#: public/ajax/modalCreateSchedule.php:81 public/schedule-free.php:50
+#: public/schedule-single.php:90
+msgid "Schedule label"
+msgstr "Etiqueta de programa"
+
+#: public/ajax/modalCreateSchedule.php:88 public/schedule-free.php:57
+#: public/schedule-single.php:97
+msgid "Perform backup every"
+msgstr "Realizar respaldo cada"
+
+#: public/ajax/modalCreateSchedule.php:95 public/schedule-single.php:104
+msgid "Day of month"
+msgstr "Dia del mes"
+
+#: public/ajax/modalCreateSchedule.php:106 public/schedule-single.php:115
+msgid "Day of week"
+msgstr "Día de la semana"
+
+#: public/ajax/modalCreateSchedule.php:113 public/schedule-single.php:122
+msgid "At (UTC+0)"
+msgstr "A las (UTC+0)"
+
+#: public/ajax/modalCreateSchedule.php:121 public/schedule.php:22
+msgid "Backup options"
+msgstr "Opciones de respaldo"
+
+#: public/ajax/modalCreateSchedule.php:125 public/ajax/modalManualBackup.php:30
+#: public/schedule-free.php:68 public/schedule-single.php:133
+msgid "Full backup"
+msgstr "Respaldo completo"
+
+#: public/ajax/modalCreateSchedule.php:131 public/ajax/modalManualBackup.php:36
+#: public/schedule-free.php:74 public/schedule-single.php:139
+msgid "Custom backup"
+msgstr "Respaldo personalizado"
+
+#: public/ajax/modalCreateSchedule.php:140 public/ajax/modalManualBackup.php:44
+#: public/schedule-free.php:87 public/schedule-single.php:152
+msgid "Backup files"
+msgstr "Respaldar archivos"
+
+#: public/ajax/modalCreateSchedule.php:161 public/ajax/modalManualBackup.php:65
+#: public/schedule-free.php:108 public/schedule-single.php:173
+msgid "Upload to cloud"
+msgstr "Subir a la nube"
+
+#: public/ajax/modalCreateSchedule.php:167 public/ajax/modalManualBackup.php:71
+#: public/schedule-free.php:114 public/schedule-single.php:179
+msgid "FTP is not active."
+msgstr "FTP no está activo."
+
+#: public/ajax/modalCreateSchedule.php:175 public/ajax/modalManualBackup.php:79
+#: public/schedule-free.php:122 public/schedule-single.php:187
+msgid "Dropbox is not active."
+msgstr "Dropbox no está activo."
+
+#: public/ajax/modalCreateSchedule.php:183 public/schedule-single.php:195
+msgid "Google  Drive is not active."
+msgstr "Google Drive no está activo."
+
+#: public/ajax/modalCreateSchedule.php:191
+msgid "S3 Drive is not active."
+msgstr "S3 no está activo."
+
+#: public/ajax/modalCreateSchedule.php:199
+#: public/ajax/modalManualBackup.php:106 public/schedule-free.php:146
+#: public/schedule-single.php:211
+msgid "One Drive is not active."
+msgstr "One Drive no está activo."
+
+#: public/ajax/modalCreateSchedule.php:214
+#: public/ajax/modalManualBackup.php:121 public/schedule-free.php:161
+#: public/schedule-single.php:226
+msgid "Background mode"
+msgstr "Modo de fondo"
+
+#: public/ajax/modalFtpSettings.php:14
+msgid "FTP settings"
+msgstr "Configuración de FTP"
+
+#: public/ajax/modalFtpSettings.php:20
+msgid "Type *"
+msgstr "Tipo *"
+
+#: public/ajax/modalFtpSettings.php:28
+msgid "Host *"
+msgstr "Host *"
+
+#: public/ajax/modalFtpSettings.php:35
+msgid "User *"
+msgstr "Usuario *"
+
+#: public/ajax/modalFtpSettings.php:43
+msgid "Key authentication"
+msgstr "Autenticación de clave"
+
+#: public/ajax/modalFtpSettings.php:50
+msgid "Private key *"
+msgstr "Llave privada *"
+
+#: public/ajax/modalFtpSettings.php:55 public/ajax/modalImport.php:66
+msgid "Browse"
+msgstr "Explorar"
+
+#: public/ajax/modalFtpSettings.php:66
+msgid "Password *"
+msgstr "Contraseña *"
+
+#: public/ajax/modalFtpSettings.php:73
+msgid "Port *"
+msgstr "Puerto *"
+
+#: public/ajax/modalFtpSettings.php:80
+msgid "Root directory *"
+msgstr "Directorio raíz *"
+
+#: public/ajax/modalImport.php:15
+msgid "Import from"
+msgstr "Importar de"
+
+#: public/ajax/modalImport.php:25
+msgid "Local PC"
+msgstr "PC local"
+
+#: public/ajax/modalImport.php:61
+msgid "SGBP file"
+msgstr "Archivo SGBP"
+
+#: public/ajax/modalImport.php:81 public/backups.php:97
+msgid "Filename"
+msgstr "Nombre del archivo"
+
+#: public/ajax/modalImport.php:82 public/backups.php:98
+msgid "Size"
+msgstr "Tamaño"
+
+#: public/ajax/modalImport.php:83 public/backups.php:99
+msgid "Date"
+msgstr "Fecha"
+
+#: public/ajax/modalImport.php:94
+msgid "Back"
+msgstr "Atrás"
+
+#: public/ajax/modalImport.php:96
+msgid "Next"
+msgstr "Siguiente"
+
+#: public/ajax/modalManualBackup.php:19
+msgid "Prepare migration package"
+msgstr "Preparar paquete de migración"
+
+#: public/ajax/modalManualBackup.php:19
+msgid "Manual Backup"
+msgstr "Respaldo manual"
+
+#: public/ajax/modalManualBackup.php:88 public/schedule-free.php:130
+msgid "Google Drive is not active."
+msgstr "Google Drive no está activo."
+
+#: public/ajax/modalManualBackup.php:97
+msgid "S3 is not active."
+msgstr "S3 no está activo."
+
+#: public/ajax/modalManualBackup.php:131 public/backups.php:83
+#: public/backups.php:154
+msgid "Backup"
+msgstr "Respaldo"
+
+#: public/ajax/modalManualRestore.php:15
+msgid "Manual Restore"
+msgstr "Restauración manual"
+
+#: public/ajax/modalManualRestore.php:25
+msgid "Full restore"
+msgstr "Restauración completa"
+
+#: public/ajax/modalManualRestore.php:31
+msgid "Restore files"
+msgstr "Restaurar archivos"
+
+#: public/ajax/modalManualRestore.php:40
+msgid "Restore DB"
+msgstr "Restaurar base de datos"
+
+#: public/ajax/modalManualRestore.php:49 public/ajax/modalManualRestore.php:65
+#: public/backups.php:175
+msgid "Restore"
+msgstr "Restaurar"
+
+#: public/ajax/modalPrivacy.php:8 public/backups.php:70
+#: public/include/footer.php:6
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: public/ajax/modalPrivacy.php:13
+msgid ""
+"Your privacy is very important to us. Accordingly, we have developed this "
+"Policy in order for you to understand how we collect, use, communicate and "
+"disclose and make use of personal information. The following outlines our "
+"privacy policy."
+msgstr ""
+
+#: public/ajax/modalPrivacy.php:15
+msgid ""
+"Before or at the time of collecting personal information, we will identify "
+"the purposes for which information is being collected."
+msgstr ""
+
+#: public/ajax/modalPrivacy.php:16
+msgid ""
+"We will collect and use of personal information solely with the objective of "
+"fulfilling those purposes specified by us and for other compatible purposes, "
+"unless we obtain the consent of the individual concerned or as required by "
+"law."
+msgstr ""
+
+#: public/ajax/modalPrivacy.php:17
+msgid ""
+"We will only retain personal information as long as necessary for the "
+"fulfillment of those purposes."
+msgstr ""
+
+#: public/ajax/modalPrivacy.php:18
+msgid ""
+"We will collect personal information by lawful and fair means and, where "
+"appropriate, with the knowledge or consent of the individual concerned."
+msgstr ""
+
+#: public/ajax/modalPrivacy.php:19
+msgid ""
+"Personal data should be relevant to the purposes for which it is to be used, "
+"and, to the extent necessary for those purposes, should be accurate, "
+"complete, and up-to-date."
+msgstr ""
+
+#: public/ajax/modalPrivacy.php:20
+msgid ""
+"We will protect personal information by reasonable security safeguards "
+"against loss or theft, as well as unauthorized access, disclosure, copying, "
+"use or modification."
+msgstr ""
+
+#: public/ajax/modalPrivacy.php:21
+msgid ""
+"We will make readily available to customers information about our policies "
+"and practices relating to the management of personal information."
+msgstr ""
+
+#: public/ajax/modalPrivacy.php:23
+msgid ""
+"We are committed to conducting our business in accordance with these "
+"principles in order to ensure that the confidentiality of personal "
+"information is protected and maintained."
+msgstr ""
+
+#: public/ajax/modalPrivacy.php:29 public/ajax/modalTerms.php:28
+msgid "Ok"
+msgstr "Aceptar"
+
+#: public/ajax/modalReview.php:8
+msgid "Leave a Review"
+msgstr "Dejar una valoración"
+
+#: public/ajax/modalReview.php:13
+msgid ""
+"If you have some time and appreciated our product, please leave us a review "
+"by clicking on the \"Leave a review\" button below."
+msgstr ""
+"Si tiene tiempo y aprecia nuestro producto, déjenos una valoración haciendo "
+"clic en el botón \\\"Dejar una valoración\\\" a continuación."
+
+#: public/ajax/modalReview.php:26
+msgid "Don't ask again"
+msgstr "No preguntar de nuevo"
+
+#: public/ajax/modalReview.php:27
+msgid "Ask me later"
+msgstr "Preguntar luego"
+
+#: public/ajax/modalReview.php:28
+msgid "Leave a review"
+msgstr "Dejar una valoración"
+
+#: public/ajax/modalTerms.php:8 public/include/footer.php:6
+msgid "Terms & Conditions"
+msgstr "Términos y condiciones"
+
+#: public/ajax/modalTerms.php:13
+msgid "Terms"
+msgstr "Términos"
+
+#: public/ajax/modalTerms.php:14
+msgid ""
+"By using this software, you are agreeing to be bound by these software Terms "
+"and Conditions of Use, all applicable laws and regulations, and agree that "
+"you are responsible for compliance with any applicable local laws. If you do "
+"not agree with any of these terms, you are prohibited from using this "
+"software. The materials contained in this software are protected by "
+"applicable copyright and trade mark law."
+msgstr ""
+
+#: public/ajax/modalTerms.php:15
+msgid "Disclaimer"
+msgstr ""
+
+#: public/ajax/modalTerms.php:16
+msgid "The materials on BackupGuard's are provided"
+msgstr ""
+
+#: public/ajax/modalTerms.php:16
+msgid "as is"
+msgstr ""
+
+#: public/ajax/modalTerms.php:16
+msgid ""
+"BackupGuard makes no warranties, expressed or implied, and hereby disclaims "
+"and negates all other warranties, including without limitation, implied "
+"warranties or conditions of merchantability, fitness for a particular "
+"purpose, or non-infringement of intellectual property or other violation of "
+"rights. Further, BackupGuard does not warrant or make any representations "
+"concerning the accuracy, likely results, or reliability of the use of the "
+"materials on its Software."
+msgstr ""
+
+#: public/ajax/modalTerms.php:17
+msgid "Limitations"
+msgstr ""
+
+#: public/ajax/modalTerms.php:18
+msgid ""
+"In no event shall BackupGuard or its suppliers be liable for any damages "
+"(including, without limitation, damages for loss of data or profit, or due "
+"to business interruption,) arising out of the use or inability to use the "
+"materials on BackupGuard's software, even if BackupGuard or a BackupGuard "
+"authorized representative has been notified orally or in writing of the "
+"possibility of such damage. Because some jurisdictions do not allow "
+"limitations on implied warranties, or limitations of liability for "
+"consequential or incidental damages, these limitations may not apply to you."
+msgstr ""
+
+#: public/ajax/modalTerms.php:19
+msgid "Revisions and Errata"
+msgstr ""
+
+#: public/ajax/modalTerms.php:20
+msgid ""
+"The materials appearing on BackupGuard's software could include technical, "
+"typographical, or photographic errors. BackupGuard does not warrant that any "
+"of the materials on its software are accurate, complete, or current. "
+"BackupGuard may make changes to the materials contained on its software at "
+"any time without notice. BackupGuard does not, however, make any commitment "
+"to update the materials."
+msgstr ""
+
+#: public/ajax/modalTerms.php:21
+msgid "Terms of Use Modifications"
+msgstr ""
+
+#: public/ajax/modalTerms.php:22
+msgid ""
+"BackupGuard may revise these terms of use for its software at any time "
+"without notice. By using this software you are agreeing to be bound by the "
+"then current version of these Terms and Conditions of Use."
+msgstr ""
+
+#: public/ajax/schedule.php:24
+msgid "Cron is not available on your hosting."
+msgstr "Cron no está disponible en tu hosting."
+
+#: public/ajax/schedule.php:44 public/ajax/schedule.php:52
+msgid "Label field is required."
+msgstr "El campo de la etiqueta es obligatorio."
+
+#: public/ajax/schedule.php:112
+msgid "Invalid backup type"
+msgstr "Tipo de respaldo no válido"
+
+#: public/ajax/settings.php:30
+msgid "Email is required."
+msgstr "Correo electronico es requerido."
+
+#: public/ajax/settings.php:36
+msgid "Invalid email address."
+msgstr "Correo electrónico no válido."
+
+#: public/backups.php:23
+msgid "Let us be more helpful!"
+msgstr "¡Permítanos ser más útiles!"
+
+#: public/backups.php:25
+msgid "Tell us about your primary needs and be aware of our news and updates."
+msgstr ""
+"Cuéntenos sobre sus necesidades principales y esté al tanto de nuestras "
+"noticias y actualizaciones."
+
+#: public/backups.php:31
+msgid "Please Enter First Name."
+msgstr "Por favor ingrese el nombre."
+
+#: public/backups.php:35
+msgid "Please Enter Last Name."
+msgstr "Por favor ingrese el apellido."
+
+#: public/backups.php:41
+msgid "Please Enter Valid Email Address."
+msgstr "Por favor ingrese una dirección de correo electrónico válida."
+
+#: public/backups.php:47
+msgid "Please Select Your Priority"
+msgstr "Por favor seleccione su prioridad"
+
+#: public/backups.php:48
+msgid "Local Backup"
+msgstr "Respaldo local"
+
+#: public/backups.php:49
+msgid "Cloud Backup"
+msgstr "Respaldo en la nube"
+
+#: public/backups.php:50
+msgid "Scheduling"
+msgstr "Respaldos programados"
+
+#: public/backups.php:51
+msgid "Migration"
+msgstr "Migración"
+
+#: public/backups.php:52
+msgid "Other"
+msgstr "Otro"
+
+#: public/backups.php:54
+msgid "Please Select Your Priority."
+msgstr "Por favor, seleccione su prioridad."
+
+#: public/backups.php:59
+msgid "Please select your priority."
+msgstr "Por favor, seleccione su prioridad."
+
+#: public/backups.php:60
+msgid "Please Enter Your Priority."
+msgstr "Por favor ingrese su prioridad."
+
+#: public/backups.php:64
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+#: public/backups.php:69
+msgid "Terms of Service"
+msgstr "Términos de servicio"
+
+#: public/backups.php:87
+msgid "Migrate"
+msgstr "Migrar"
+
+#: public/backups.php:100 public/schedule.php:24
+msgid "Status"
+msgstr "Estado"
+
+#: public/backups.php:101 public/schedule.php:25
+msgid "Actions"
+msgstr "Acciones"
+
+#: public/backups.php:129
+msgid "Warnings found during backup"
+msgstr "Advertencias encontradas durante el respaldo"
+
+#: public/backups.php:129
+msgid "Warnings found during restore"
+msgstr "Advertencias encontradas durante la restauración"
+
+#: public/backups.php:129
+msgid "Warnings found during upload"
+msgstr "Advertencias encontradas durante la subida"
+
+#: public/backups.php:131
+msgid "Errors found during backup"
+msgstr "Errores encontrados durante el respaldo"
+
+#: public/backups.php:131
+msgid "Errors found during restore"
+msgstr "Errores encontrados durante la restauración"
+
+#: public/backups.php:131
+msgid "Errors found during upload"
+msgstr "Errores encontrados durante la subida"
+
+#: public/backups.php:141
+msgid "Stop"
+msgstr "Detener"
+
+#: public/backups.php:144 public/backups.php:186 public/schedule.php:74
+msgid "Delete"
+msgstr "Eliminar"
+
+#: public/backups.php:146
+msgid "Download"
+msgstr "Descargar"
+
+#: public/backups.php:161
+msgid "Backup log"
+msgstr "Log de respaldo"
+
+#: public/backups.php:168
+msgid "Restore log"
+msgstr "Log de restauración"
+
+#: public/cloud.php:24
+msgid "Cloud settings"
+msgstr "Configuración de la nube"
+
+#: public/cloud.php:28
+msgid "Destination folder"
+msgstr "Carpeta de destino"
+
+#: public/cloud.php:50 public/cloud.php:67 public/cloud.php:84
+#: public/cloud.php:102 public/cloud.php:120
+msgid "ON"
+msgstr "ON"
+
+#: public/cloud.php:50 public/cloud.php:67 public/cloud.php:84
+#: public/cloud.php:102 public/cloud.php:120
+msgid "OFF"
+msgstr "OFF"
+
+#: public/include/footer.php:4
+msgid "Powered by BackupGuard"
+msgstr ""
+
+#: public/include/footer.php:7
+msgid "v.1.0.0"
+msgstr ""
+
+#: public/link_license.php:15
+msgid "Invalid or unassigned license"
+msgstr "Licencia inválida o no asignada"
+
+#: public/link_license.php:19
+msgid ""
+"Your license could not be validated. Maybe you forgot to link a license to "
+"this domain. If that is the case, please link one license below:"
+msgstr ""
+"Su licencia no pudo ser validada. Tal vez se le olvidó vincular una licencia "
+"a este dominio. Si ese es el caso, por favor vincule una licencia a "
+"continuación:"
+
+#: public/link_license.php:23
+msgid "Choose a license"
+msgstr "Elige una licencia"
+
+#: public/link_license.php:33
+msgid "Link this domain now"
+msgstr "Enlace este dominio ahora"
+
+#: public/link_license.php:37
+msgid ""
+"Your license could not be validated. It seems that you have already assigned "
+"all of your licenses."
+msgstr ""
+"Su licencia no pudo ser validada. Parece que ya ha asignado todas sus "
+"licencias."
+
+#: public/link_license.php:40
+msgid ""
+"Please login to your dashboard to manage your website urls and release a "
+"license to be able to use it."
+msgstr ""
+"Inicie sesión en su panel de control para administrar las URL de su sitio "
+"web y libere una licencia para poder usarla."
+
+#: public/link_license.php:43
+msgid "Login to dashboard"
+msgstr "Iniciar sesión en el panel"
+
+#: public/link_license.php:46
+msgid "Click here to try again"
+msgstr "Haga clic aquí para volver a intentarlo"
+
+#: public/login.php:11
+msgid "Login to your account"
+msgstr "Ingrese a su cuenta"
+
+#: public/login.php:12
+msgid "Invalid login info. Please try again."
+msgstr "Información de inicio de sesión no válida. Inténtalo de nuevo."
+
+#: public/login.php:17
+msgid "How do I get this?"
+msgstr "¿Cómo consigo esto?"
+
+#: public/login.php:19
+msgid "The credentials were sent to your email."
+msgstr "Las credenciales fueron enviadas a su correo electrónico."
+
+#: public/login.php:20
+msgid "In case if you didn't receive them, please contact us."
+msgstr "En caso de no recibirlos, por favor contáctenos."
+
+#: public/login.php:25
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: public/schedule-free.php:34 public/schedule-single.php:74
+msgid "*Multiple schedule profiles are available only in"
+msgstr ""
+"*Los perfiles de horarios múltiples están disponibles solo en la versión"
+
+#: public/schedule-free.php:34 public/schedule-single.php:74
+msgid "Platinum"
+msgstr "Platinum"
+
+#: public/schedule-free.php:34 public/schedule-single.php:74
+msgid "version."
+msgstr "."
+
+#: public/schedule-free.php:40 public/schedule-single.php:80
+msgid "Scheduled backup"
+msgstr "Respaldo programado"
+
+#: public/schedule-free.php:138 public/schedule-single.php:203
+msgid "Amazon S3 Drive is not active."
+msgstr "Amazon S3 no está activo."
+
+#: public/schedule.php:13
+msgid "Schedules"
+msgstr "Horarios"
+
+#: public/schedule.php:14
+msgid "Create schedule"
+msgstr "Programar"
+
+#: public/schedule.php:19
+msgid "Label"
+msgstr "Etiqueta"
+
+#: public/schedule.php:20
+msgid "Recurrence"
+msgstr "Recurrencia"
+
+#: public/schedule.php:21
+msgid "Execution date"
+msgstr "Fecha de ejecución"
+
+#: public/schedule.php:23
+msgid "Upload to"
+msgstr "Subir a"
+
+#: public/schedule.php:31
+msgid "No schedules found."
+msgstr "No se han encontrado horarios."
+
+#: public/schedule.php:71
+msgid "Pending"
+msgstr "Pendiente"
+
+#: public/schedule.php:71
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: public/schedule.php:73
+msgid "Edit"
+msgstr "Editar"
+
+#: public/services.php:8
+msgid "Special services"
+msgstr ""
+
+#: public/services.php:13
+msgid "WordPress website migration"
+msgstr ""
+
+#: public/services.php:22
+msgid "Order now"
+msgstr ""
+
+#: public/services.php:28
+msgid ""
+"Our professionals will migrate all of your files and database and ensure "
+"everything is working properly on your new server. With our migration "
+"service, you can expect:"
+msgstr ""
+
+#: public/services.php:32
+msgid "Migration of your files"
+msgstr ""
+
+#: public/services.php:36
+msgid "Migration of your database"
+msgstr ""
+
+#: public/services.php:40
+msgid "Refactoring of all urls"
+msgstr ""
+
+#: public/services.php:44
+msgid "Refactoring of all file names and image paths"
+msgstr ""
+
+#: public/services.php:48
+msgid "Serialized data refactoring"
+msgstr ""
+
+#: public/settings.php:34
+msgid "General settings"
+msgstr "Configuración general"
+
+#: public/settings.php:38
+msgid "Email notifications"
+msgstr "Notificaciónes de correo electrónico"
+
+#: public/settings.php:51
+msgid "Enter email"
+msgstr "Ingrese correo electrónico"
+
+#: public/settings.php:53
+msgid "You can enter multiple emails, just separate them with comma"
+msgstr ""
+"Puede ingresar múltiples correos electrónicos, solo sepárelos con una coma"
+
+#: public/settings.php:60
+msgid "Reloads enabled"
+msgstr "Recargas habilitadas"
+
+#: public/settings.php:71
+msgid "Delete local backup after upload"
+msgstr "Eliminar respaldo local después de subir"
+
+#: public/settings.php:83
+msgid "Alert before update"
+msgstr "Alertar antes de actualizar"
+
+#: public/settings.php:95
+msgid "Backup deletion will also delete from cloud"
+msgstr "La eliminación del respaldo también lo eliminará de la nube"
+
+#: public/settings.php:106
+msgid "Show statistics"
+msgstr "Mostrar estadísticas"
+
+#: public/settings.php:117
+msgid "FTP passive mode"
+msgstr "Modo pasivo FTP"
+
+#: public/settings.php:129
+msgid "Disable ads"
+msgstr "Desactivar los anuncios"
+
+#: public/settings.php:140
+msgid "Exclude paths (separated by commas)"
+msgstr "Excluir directorios (separados por comas)"
+
+#: public/settings.php:147
+msgid "Tables to exclude (separated by commas)"
+msgstr "Excluir tablas (separadas por comas)"
+
+#: public/settings.php:155
+msgid "Backup retention"
+msgstr "Retención de respaldos"
+
+#: public/settings.php:163
+msgid "Number of rows to backup at once"
+msgstr "Número de lineas para respaldar a la vez"
+
+#: public/settings.php:170
+msgid "Reload method"
+msgstr "Método de recarga"
+
+#: public/settings.php:182
+msgid "Backup file name"
+msgstr "Nombre del archivo de respaldo"
+
+#: public/settings.php:191
+msgid "AJAX request frequency"
+msgstr "Frecuencia de solicitudes AJAX"
+
+#: public/settings.php:197
+msgid "Backup destination path"
+msgstr "Ruta de destino de respaldo"
