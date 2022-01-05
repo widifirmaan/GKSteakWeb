@@ -1,2 +1,2 @@
-# GKSteakWeb
-Backup file of web GKSteak.com (Discontinued)
+The Backup --> widifirmaan.web.id/gksteak
+GKSteak.com (Discontinued)
